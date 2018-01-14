@@ -1,0 +1,33 @@
+{
+  "name": "fastify-error-page",
+  "version": "1.0.0",
+  "description": "The developer error page - print errors in structured HTML to the browser",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./**/*.js",
+    "patch": "np patch --yolo",
+    "minor": "np minor --yolo",
+    "major": "np major --yolo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemerajs/fastify-error-page.git"
+  },
+  "author": "Dustin Deus <deusdustin@gmail.com> (http://www.starptech.de)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemerajs/fastify-error-page/issues"
+  },
+  "homepage": "https://github.com/hemerajs/fastify-error-page#readme",
+  "dependencies": {
+    "fastify-plugin": "^0.2.1",
+    "youch": "^2.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^4.14.0",
+    "eslint-config-hemera": "0.0.2",
+    "fastify": "^0.39.1",
+    "np": "^2.18.3",
+    "prettier": "^1.10.2"
+  }
+}
