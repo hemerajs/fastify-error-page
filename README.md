@@ -10,9 +10,8 @@ npm i fastify-error-page --save
 ## Usage
 ```js
 const fastify = require('fastify')()
-const plugin = require('fastify-error-page')
 
-fastify.register(plugin)
+if(process.env.NODE_ENV !== 'production') fastify.register(require('fastify-error-page'))
 
 fastify.get('/', async function (req, reply) {
   throw new Error('Opppps!')
