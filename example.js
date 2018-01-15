@@ -1,10 +1,6 @@
 'use strict'
 
-const fastify = require('fastify')({
-  logger: {
-    level: 'info'
-  }
-})
+const fastify = require('fastify')()
 const plugin = require('.')
 
 fastify.register(plugin)
