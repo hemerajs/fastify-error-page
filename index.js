@@ -19,4 +19,4 @@ function fastifyErrorPage(fastify, options, next) {
   next()
 }
 
-module.exports = fp(fastifyErrorPage, '>=0.39.1')
+module.exports = fp(fastifyErrorPage, '>=0.43.0')
