@@ -4,7 +4,7 @@ const fp = require('fastify-plugin')
 const Youch = require('youch')
 
 function fastifyErrorPage(fastify, options, next) {
-  fastify.setErrorHandler((err, reply) => {
+  fastify.setErrorHandler((err, req, reply) => {
     try {
       const youch = new Youch(err, reply.request.req)
       youch.toHTML().then(html => {
@@ -19,4 +19,4 @@ function fastifyErrorPage(fastify, options, next) {
   next()
 }
 
-module.exports = fp(fastifyErrorPage, '>=0.39.1')
+module.exports = fp(fastifyErrorPage, '>=0.43.0')
