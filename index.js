@@ -20,6 +20,6 @@ function fastifyErrorPage(fastify, options, next) {
 }
 
 module.exports = fp(fastifyErrorPage, {
-  fastify: '>=0.43.0 || >=1.0.0-rc.2',
+  fastify: '^1.0.0',
   name: 'fastify-error-page'
 })
