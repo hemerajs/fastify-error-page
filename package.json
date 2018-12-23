@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/hemerajs/fastify-error-page#readme",
   "dependencies": {
-    "fastify-plugin": "^0.2.2",
+    "fastify-plugin": "^1.4.0",
     "youch": "^2.0.7"
   },
   "devDependencies": {
