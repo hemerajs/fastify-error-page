@@ -11,8 +11,8 @@ function fastifyErrorPage(fastify, options, next) {
         reply.type('text/html')
         reply.send(html)
       })
-    } catch (err) {
-      reply.send(err)
+    } catch (error) {
+      reply.send(error)
     }
   })
 
