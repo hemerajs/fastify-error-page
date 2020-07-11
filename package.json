@@ -21,21 +21,21 @@
   },
   "homepage": "https://github.com/hemerajs/fastify-error-page#readme",
   "dependencies": {
-    "fastify-plugin": "^1.5.0",
+    "fastify-plugin": "^2.0.0",
     "youch": "^2.0.10"
   },
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-config-hemera": "^1.0.0",
-    "eslint-config-prettier": "^4.2.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-mocha": "^5.3.0",
-    "eslint-plugin-node": "^9.0.1",
-    "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-promise": "^4.1.1",
-    "fastify": "^2.3.0",
-    "np": "^5.0.1",
-    "prettier": "^1.17.1"
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-mocha": "^7.0.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-promise": "^4.2.1",
+    "fastify": "^3.0.1",
+    "np": "^6.3.2",
+    "prettier": "^2.0.5"
   }
 }

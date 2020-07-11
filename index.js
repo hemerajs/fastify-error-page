@@ -7,7 +7,7 @@ function fastifyErrorPage(fastify, options, next) {
   fastify.setErrorHandler((err, req, reply) => {
     try {
       const youch = new Youch(err, req.raw)
-      youch.toHTML().then(html => {
+      youch.toHTML().then((html) => {
         reply.type('text/html')
         reply.send(html)
       })
@@ -20,6 +20,6 @@ function fastifyErrorPage(fastify, options, next) {
 }
 
 module.exports = fp(fastifyErrorPage, {
-  fastify: '^2.x.x',
+  fastify: '^3.x.x',
   name: 'fastify-error-page'
 })
