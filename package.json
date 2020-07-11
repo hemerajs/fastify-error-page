@@ -1,6 +1,6 @@
 {
   "name": "fastify-error-page",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "The developer error page - print errors in structured HTML to the browser",
   "main": "index.js",
   "scripts": {
